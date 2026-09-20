@@ -9,7 +9,7 @@
 int main(void) {
     CPU cpu = {0};
     reset(&cpu);
-    assemble(&cpu, "program.asm");
+    assemble(&cpu, "projects/program.asm");
 
     while (cpu.running) {
         step(&cpu);
