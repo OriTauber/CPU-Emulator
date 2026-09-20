@@ -35,7 +35,7 @@ void decode(CPU *cpu, uint8_t opcode) {
         case 0x03: {
             // SUBTRACT
             uint8_t reg = fetch8(cpu);
-            uint8_t reg2 = fetch16(cpu);
+            uint8_t reg2 = fetch8(cpu);
 
             SUBTRACT(cpu, reg, reg2);
             break;

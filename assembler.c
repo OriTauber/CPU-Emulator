@@ -37,7 +37,7 @@ InstructionDef instructions[] = {
     {"NOP",   0x00, OPERAND_NONE,  OPERAND_NONE},
     {"SET",   0x01, OPERAND_REG,  OPERAND_IMM16},
     {"ADD",   0x02, OPERAND_REG,  OPERAND_REG},
-    {"SUBTRACT", 0x03, OPERAND_REG,  OPERAND_IMM16},
+    {"SUBTRACT", 0x03, OPERAND_REG,  OPERAND_REG},
     {"LOAD",  0x04, OPERAND_REG,  OPERAND_ADDR16},
     {"STORE", 0x05, OPERAND_REG,  OPERAND_ADDR16},
     {"CMP",   0x06, OPERAND_REG,  OPERAND_REG},
@@ -161,7 +161,7 @@ int updateLabelsPass(FILE *file) {
                 break;
             case 0x03:
 
-                memoryIndex+=4;
+                memoryIndex+=3;
                 break;
             case 0x04:
 
@@ -258,7 +258,7 @@ int assemble(CPU *cpu, const char *filename) {
                 break;
             case 0x03:
                 emitSUBTRACT(cpu, binARG1, binARG2, memoryIndex);
-                memoryIndex+=4;
+                memoryIndex+=3;
                 break;
             case 0x04:
                 emitLOAD(cpu, binARG1, binARG2, memoryIndex);
