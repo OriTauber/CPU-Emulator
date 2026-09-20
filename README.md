@@ -410,6 +410,7 @@ HALT
 ```
 
 The assembler reads the file and places the resulting machine code into the CPU's memory.
+Inside the "projects" folder there is an assembly file. It prints the fibonacci sequence up to 34. It serves as a simple showcase of the emulator's capabilities.
 
 ---
 
