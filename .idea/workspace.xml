@@ -26,7 +26,29 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07f40f34-3942-4f76-93c5-ffcedd387529" name="Changes" comment="" />
+    <list default="true" id="07f40f34-3942-4f76-93c5-ffcedd387529" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/herewego.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assembler.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assembler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpu.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/decoder.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emit.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emit.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instructions.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instructions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/program.asm" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
