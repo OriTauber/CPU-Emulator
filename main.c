@@ -9,7 +9,7 @@
 int main(void) {
     CPU cpu = {0};
     reset(&cpu);
-    assemble(&cpu, "projects/program.asm");
+    assemble(&cpu, "projects/fibonacci.asm");
 
     while (cpu.running) {
         step(&cpu);
